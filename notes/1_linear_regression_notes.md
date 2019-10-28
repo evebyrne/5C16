@@ -11,7 +11,9 @@
 * y = x<sup>T</sup>w
 * for gradient derivations:
   * d(e<sup>f(x)</sup>)/dx = e<sup>f(x)</sup> * d(f(x))/dx
- * Normal Equation: X<sup>T</sup>Xw = X<sup>T</sup>y
+* Normal Equation:  
+   **X<sup>T</sup>Xw = X<sup>T</sup>y**  
+   w = X<sup>T</sup>y(X<sup>T</sup>X)<sup>-1</sup>
 * Can use more complex models by using increasing powers of x
 * Underfitting - can't get the error low enough
 * Overfitting - low error on training, high on validation
@@ -38,4 +40,9 @@ linear fxn in linear alg - affine fxn
 * Two properties
   * Scalability (easier to calculate so do this first) => f(Lw) = Lf(w)
   * Additivity/Homogeneity => f(x<sub>1</sub> + x<sub>2</sub>) = f(x<sub>1</sub>) + f(x<sub>2</sub>)
+  * Examples from test2:  
+  y = w<sub>1</sub>logx<sub>1</sub> + w<sub>2</sub>cosx<sub>2</sub> Linear  
+  y = w<sub>1</sub>x<sub>1</sub> Linear  
+  y = w<sub>1</sub>x<sub>1</sub> + x<sub>2</sub>sin(w<sub>2</sub>) Non Linear  \
+  y = w<sub>1</sub>w<sub>2</sub> + x<sub>1</sub> Non Linear
   
