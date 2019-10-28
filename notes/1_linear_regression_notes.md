@@ -10,7 +10,12 @@
 * w<sub>0</sub> = bias
 * y = x<sup>T</sup>w
 * for gradient derivations:
-  * d(e<sup>f(x)</sup>)/dx = e<sup>f(x)</sup> * d(f(x))/dx
+  * d(e<sup>f(x)</sup>)/dx = e<sup>f(x)</sup> * d(f(x))/dx  
+  * X<sup>T</sup>X appearing together means it's symmetric
+  * cos'(x) = -sin(x)
+  * sin'(x) = cos(x)
+  * These will be included in the exam 
+  ![alt text](https://github.com/evebyrne/5C16/blob/master/notes/gradient_calc.png)
 * Normal Equation:  
    **X<sup>T</sup>Xw = X<sup>T</sup>y**  
    w = X<sup>T</sup>y(X<sup>T</sup>X)<sup>-1</sup>
