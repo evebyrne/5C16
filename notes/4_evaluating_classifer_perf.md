@@ -20,9 +20,9 @@ FP/N
 
 'Out of everything that is not positive, how many did you classify incorrectly as positive?'
 
-Accuracy
+### Accuracy
 
-(TP+FP) / (P+N)
+everything right / everything
 
 ### F1 Score
 2*(Pr*R)/(Pr+R)
