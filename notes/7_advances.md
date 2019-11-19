@@ -23,6 +23,8 @@ Used before activation fxn
 
 With some activation fxns the output is not constrained within a range
 
+for domain adaptation - one dataset to another
+
 #### Local Response Normalisation
 
 Introduced in AlexNet w ReLu
