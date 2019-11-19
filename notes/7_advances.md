@@ -70,6 +70,8 @@ instead of stacking multiple kernels on top of eachother, do them in parallel
 
 1X1 convolutions reduce the number of multiplications needed
 
+layer of 1x1 convolutions is called the bottleneck layer
+
 ### GoogleNet
 
 9 inception blocks
