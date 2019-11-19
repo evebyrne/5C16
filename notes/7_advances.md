@@ -92,7 +92,7 @@ output = H(x)
 
 usually trying to learn H(x)
 
-is resnet trying to learn H(x)-x
+in resnet trying to learn H(x)-x
 
 Constantly reminding the network of the input
 
