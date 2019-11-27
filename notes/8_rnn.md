@@ -1,6 +1,6 @@
 ## Recurrent Neural Networks
 
-Sequential data
+Sequential data - audio, stock market, vehicle trajectory, NLP, machine translation
 
 Remembers
 
