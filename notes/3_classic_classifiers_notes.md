@@ -10,10 +10,12 @@
     
 ### Decision Trees
   * pros
-    * fast
+    * fast (doesn't scale badly)
     * non parametric
   * cons
     * decisions on axis -> cant do diagonal splits 
+    
+similiar pros and cons for random forests 
    
 ### SVM
 * same as logistic regression but different loss fxn
@@ -22,7 +24,7 @@
   * pros
     * non-parametric
   * cons
-    * high cost for large datasets
+    * high cost for large datasets (scales badly)
     
 All non-parametric are likely to overfit if small training set
 
