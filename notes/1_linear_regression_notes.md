@@ -24,7 +24,12 @@
 * Overfitting - low error on training, high on validation
   * Get more data
   * Regularisation
+    * biases weights towards 0 
+    * if not enough training data
+    * biases results
     * Tikhonov reg -> pulls weights towards 0 
+    * Tikhonov does not add significant numerical complexity to least squares 
+    
 * Maximum Likelihood
   * Assume gaussian distribution
   * find w that maximises p(y|X, w) (likelihood of y given X)
