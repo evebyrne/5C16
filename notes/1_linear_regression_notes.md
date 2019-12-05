@@ -51,3 +51,7 @@ linear fxn in linear alg - affine fxn
   y = w<sub>1</sub>x<sub>1</sub> + x<sub>2</sub>sin(w<sub>2</sub>) Non Linear  \
   y = w<sub>1</sub>w<sub>2</sub> + x<sub>1</sub> Non Linear
   
+* log(a<sup>b</sup>) = blog(a)
+* log(ab) = log(a) + log(b)
+
+  
