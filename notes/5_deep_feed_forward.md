@@ -1,3 +1,8 @@
+# deep networks
+at least two hidden layers with non-linear activations
+
+all networks studied can be a feed forward network
+
 # success of dl fueled by: 
 * big data
 * powerful computing platforms
@@ -22,6 +27,8 @@ uses chain rule to propogate the gradient info from the cost unit back to the we
 
 ## vanishing gradients
 when at least one of the units produce a near zero derivative, when this happens the whole drivate will approach 0 and the gradient will get stuck
+
+more likely for deeper networks
 
 ## mini batch gradient descent
 usually have to calculating gradient for entire dataset, impractical
