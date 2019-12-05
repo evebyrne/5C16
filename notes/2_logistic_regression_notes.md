@@ -29,4 +29,4 @@
 
 ![alt text](https://github.com/evebyrne/5C16/blob/master/notes/Screenshot_2019-12-05%20Screenshot%20from%202019-12-05%2014-44-26%20png%20(PNG%20Image%2C%201920%20%C3%97%201080%20pixels)%20-%20Scaled%20(99%25).png)
 
-best classifier for this is logistic regression
+best classifier for this is logistic regression and the least likely to overfit
