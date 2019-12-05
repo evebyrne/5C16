@@ -12,7 +12,7 @@
 * Cross Entropy is derived from negative log likelihood of the total likelihood
 
 #### Gradient Descent
-* w<sup>t+1</sup> = w<sup>t</sup> + l*dE/dw
+* w<sup>t+1</sup> = w<sup>t</sup> + l*dE/dw(w<sup>t</sup>)
 * l = learning rate 
 * Method: 
   1. set initial weight w<sup>0</sup>
