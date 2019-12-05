@@ -17,6 +17,9 @@ Do this if enough data
 
 ### Freezing 
 Don't update weights
+
+if not enough data in target domain
+
 ### Normalisation
 
 Used before activation fxn
@@ -47,20 +50,23 @@ Mean and std dev are that of the mini batch
 
 Discriminatory model + Generative model
 
-Example 
+**Example** 
 
 Generator generates fake faces
 
 The generated fake faces and real faces are fed into the discriminator nw. This classifies the images as real or fake. The output of this is fed back to the generator so the generator knows if it was successful in fooling the discriminator. The generator uses this feedback to improve and create faces that look more real. Best outcome is when the discriminator cant discriminate between real and fake. Feedback is the classification of the discriminator. Loss is calculated from this. Back prop carried out based on this loss. 
 
-Discrimintator training
+Discrimintator **training**
 
 Trained on real data to see if can correctly predict as real
 
 Trained on fake data to see if can correctly predict as fake
 
-
 Genrator takes random noise as initial input
+
+Discriminator is not useful after training
+
+distribution of noise in initial input to generator is not important
 
 ## Inception
 
@@ -77,12 +83,14 @@ parallel paths to avoid vanishing gradients -> the deeper the more multiplicatio
 layer of 1x1 convolutions is called the bottleneck layer
 
 ### GoogleNet
+parallel connections
 
 9 inception blocks
 
 22 layers
 
 ## ResNet
+parallel connections between deeper and shallower layers by adding the result of a previous layer to the result after 2 convolutions
 
 Only difference to normal convolution is the identity connection
 
