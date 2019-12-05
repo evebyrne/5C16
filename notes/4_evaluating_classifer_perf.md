@@ -9,6 +9,8 @@ N = TN + FP (Everything that's actually Negative)
 
 'Out of everything that is postive, how many did you get right'
 
+'all correctly classified as positive / all actually positive'
+
 ### Precision
  TP/(TP+FP)
  
