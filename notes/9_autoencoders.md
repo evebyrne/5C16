@@ -1,10 +1,10 @@
 a nn that is trained to attempt to copy its input to its output
 
-take an input and find the features that allow it to be reconstructed most effectively
+'take an input and find the features that allow it to be reconstructed most effectively'
 
-compression
+'compression'
 
-self-encoders
+'self-encoders'
 
 input = x
 
@@ -30,3 +30,13 @@ loss fxn penalises r for being dissimiliar to x eg. mse
 * image generation
 * sequence to sequence prediction
 * recommendation system
+
+# code
+1. flatten
+2. encoded = dense layer with num neurons < flattened input layer
+3. decoded = dense layer with num neurons = flattened input layer
+
+# in images 
+max pooling to reduce size (encoding)
+
+up sampling to increase size (decoding)
