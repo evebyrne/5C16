@@ -12,7 +12,6 @@ U - updates H
 
 W - updates X(input)
 
-Network parameters w are shared across all iterations (fixed in time)
 
 #### Equations
 
