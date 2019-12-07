@@ -1,5 +1,7 @@
 # Recurrent Neural Networks
 
+https://www.youtube.com/watch?v=_h66BW-xNgk&t=39s
+
 Sequential data - audio, stock market, vehicle trajectory, NLP, machine translation
 
 Remembers
