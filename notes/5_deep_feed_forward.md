@@ -77,6 +77,8 @@ E'(w) = E(w) + lambda|w<sub>i</sub>|
 
 can end up setting weights to 0 and simplifying the network (good)
 
+http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/
+
 # constraints
 ## max norm constraint
 enforce upper bound on value of weights
