@@ -63,6 +63,8 @@ gradient recomputed for each observation
 
 
 # regularisation
+
+works on assumption that smaller weights create a simpler model which will generalise better
 ## L2 
 most common
 
@@ -72,10 +74,14 @@ adding a penalty to a loss fxn
 
 E'(w) = E(w) + lambda(w<sub>i</sub>)<sup>2</sup>
 
+lambda is the reglarisation parameter which determines how much to penalise the weights
+
 # L1
 E'(w) = E(w) + lambda|w<sub>i</sub>|
 
-can end up setting weights to 0 and simplifying the network (good)
+can end up setting weights to 0 and simplifying the network (good) 
+
+feature selection bc sets weights of useless features to 0 
 
 http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/
 
