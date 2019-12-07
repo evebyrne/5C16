@@ -15,7 +15,7 @@ U - updates H
 W - updates X(input)
 
 
-#### Equations
+## Equations
 
 h<sub>t</sub> = tanh(W<sub>h</sub>x<sub>t</sub> + U<sub>h</sub>h<sub>t-1</sub> + b<sub>h</sub>)
 
